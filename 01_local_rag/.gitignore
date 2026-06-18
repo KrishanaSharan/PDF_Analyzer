@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables (API keys)
+.env
+
+# Uploaded PDFs
+uploads/
+
+# ChromaDB vector store
+pdf_chroma/
+chroma/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Runtime metadata (auto-regenerated)
+pdf_metadata.json
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
